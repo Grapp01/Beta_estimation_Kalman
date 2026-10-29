@@ -1,0 +1,7 @@
+Necessaries libraries:
+numpy
+pandas
+matplotlib
+numba
+yfinance
+pytest
