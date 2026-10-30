@@ -203,5 +203,6 @@ What the table shows:
 * **The Static OLS** beta uses the whole sample and is therefore not usable in real time. It is a baseline only.
 
 ---
-
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ## Author: Michele Grazzini
