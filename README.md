@@ -107,21 +107,20 @@ where `ε(t) = y(t) − C(t) x̂(t|t)` is the a-posteriori residual and `σ²ₘ
 
 ## Repository structure
 
-```text
-.
-├── config.py              # all hyperparameters and plot labels
-├── data_loader.py         # one download, CSV cache, common alignment
-├── estimators.py          # static OLS, rolling OLS, RWLS, adaptive/Oracle Kalman (Numba)
-├── metrics.py             # common-window RMSE, bias, coverage, one-step-ahead MSE
-├── market_analysis.py     # experiment 1: real data
-├── simulation.py          # experiment 2: synthetic Monte Carlo
-├── semi_synthetic_sim.py  # experiment 3: bootstrapped real noise
-├── main.py                # runs the three experiments in sequence
-├── tests/                 # unit tests (OLS equivalences, RWLS band, R estimator)
-├── data/                  # cached returns and generated figures
-├── requirements.txt
-└── README.md
-```
+├──beta_estimation_spy
+    ├── config.py              # all hyperparameters and plot labels
+    ├── data_loader.py         # one download, CSV cache, common alignment
+    ├── estimators.py          # static OLS, rolling OLS, RWLS, adaptive/Oracle Kalman (Numba)
+    ├── metrics.py             # common-window RMSE, bias, coverage, one-step-ahead MSE
+    ├── market_analysis.py     # experiment 1: real data
+    ├── simulation.py          # experiment 2: synthetic Monte Carlo
+    ├── semi_synthetic_sim.py  # experiment 3: bootstrapped real noise
+    ├── main.py                # runs the three experiments in sequence
+    ├── tests/                 # unit tests (OLS equivalences, RWLS band, R estimator)
+    ├── data/                  # cached returns and generated figures
+    ├── requirements.txt
+├── README.md
+├── plots 
 
 ---
 
